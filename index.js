@@ -5,7 +5,7 @@
  * @param {!express:Request} req HTTP request context.
  * @param {!express:Response} res HTTP response context.
  */
-exports.mainFunctioin = async (req, res) => {
+exports.mainFunction = async (req, res) => {
     const config = require('./config');
   
     const {
